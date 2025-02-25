@@ -1,0 +1,125 @@
+.op-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.op-container-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    width: 800px;
+    margin-bottom: 5px;
+}
+
+.op-back-link{
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.op-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 800px;
+    margin-bottom: 50px;
+    border: 2px solid #A76BF0;
+    border-radius: 10px;
+}
+
+.op-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.op-form-title {
+    font-size: 1rem;
+    margin: 14px 0 0 0;
+}
+
+.op-form-tab {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0 50px 10px 50px;
+}
+
+.op-form-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin: 10px;
+    min-width: 300px;
+}
+
+.op-form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    width: 100%;
+}
+
+.op-form-group input,
+textarea, select {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 0.8rem 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #A76BF0;
+}
+
+.op-form-group input:focus,
+textarea:focus, select:focus {
+    outline: none;
+    border: 2px solid #007bff;
+}
+
+.op-pet-image-container {
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    width: 100px;
+    height: 100px;
+}
+
+.op-pet-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.op-submit-btn {
+    background-color: #A76BF0;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 0.8rem 2rem;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.op-submit-btn:hover {
+    background-color: #7D3CF8;
+}
